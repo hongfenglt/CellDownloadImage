@@ -53,6 +53,7 @@
         self.apps = appsArr;
     }
     return _apps;
+    
 }
 
 - (NSOperationQueue *)queue
@@ -179,7 +180,7 @@
         }
         }
     }
-
+    NSLog(@"%p",cell);
     
     return cell;
 }
